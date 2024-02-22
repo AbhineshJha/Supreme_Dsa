@@ -30,14 +30,16 @@ int main(){
 // cout<<(a>>3)<<endl;
 
 //unique concept
-// int n=-100;
+// int n=-100;  // concept of arithmetic right shift    
+unsigned int s=-4;
+cout<<(s<<1);  //large no -> which is of negative bits of s
 // cout<<(n>>2);
 
 // garbage value
 
-int a=4;
+// int a=4;
 // cout<<(a>>-1);
-cout<<(a << -1);
+// cout<<(a << -1);
 
 return 0;
 }
